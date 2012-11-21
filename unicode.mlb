@@ -5,5 +5,4 @@ in
   Utf8.sml
   UNICODE_CHARS.sig
   UnicodeChars.sml
-  unicode.sml
 end
