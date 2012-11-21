@@ -1,0 +1,9 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+in
+  UTF8.sig
+  Utf8.sml
+  UNICODE_CHARS.sig
+  UnicodeChars.sml
+  unicode.sml
+end
