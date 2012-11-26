@@ -18,4 +18,4 @@ UTF8](http://en.wikipedia.org/wiki/UTF-8).
 
 ## LICENSE
 
-This software is published under the [MIT License](MIT_LICENSE).
+This software is published under the [MIT License](MIT_LICENSE.md).
