@@ -13,8 +13,8 @@ unicode characters.
 
 ## More information
 
-For information about UTF8, consult [the wikipedia entry on
-UTF8](http://en.wikipedia.org/wiki/UTF-8).
+For information about UTF8, 
+consult [the wikipedia entry on UTF8](http://en.wikipedia.org/wiki/UTF-8).
 
 ## LICENSE
 
