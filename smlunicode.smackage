@@ -1,7 +1,0 @@
-provides: smlunicode 1.0.1
-remote: git git://github.com/melsman/smlunicode.git
-description: Utf8 processing support
-keywords: text, utf-8
-bug-url: https://github.com/melsman/smlunicode/issues
-maintainer: Martin Elsman <mael@di.ku.dk>
-license: MIT
