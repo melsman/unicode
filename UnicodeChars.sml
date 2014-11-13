@@ -83,6 +83,7 @@ structure UnicodeChars : UNICODE_CHARS = struct
   val boxdarrow = 0wx2357 (* Box With Down Arrow *) (* ⍗ *)
   val boxlarrow = 0wx2347 (* Box With Left Arrow *) (* ⍇ *)
   val boxrarrow = 0wx2348 (* Box With Right Arrow *) (* ⍈ *)
+  val star = 0wx22C6 (* Star *) (* ⋆ *)
 
   fun help w =
       case w of
@@ -170,5 +171,6 @@ structure UnicodeChars : UNICODE_CHARS = struct
       | 0wx2357 => SOME "Box With Down Arrow"
       | 0wx2347 => SOME "Box With Left Arrow"
       | 0wx2348 => SOME "Box With Right Arrow"
+      | 0wx22C6 => SOME "Star"
       | _ => NONE                
 end

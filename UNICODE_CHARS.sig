@@ -83,6 +83,7 @@ signature UNICODE_CHARS = sig
   val boxdarrow : word     (* Box With Down Arrow *) (* ⍗ *)
   val boxlarrow : word     (* Box With Left Arrow *) (* ⍇ *)
   val boxrarrow : word     (* Box With Right Arrow *) (* ⍈ *)
+  val star : word          (* Star *) (* ⋆ *)
 
   val help : word -> string option
 end
