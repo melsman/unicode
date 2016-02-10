@@ -47,7 +47,7 @@ structure Utf8 :> UTF8 = struct
                                  
   val concat     : t list -> t = String.concat
   val concatWith : t -> t list -> t = String.concatWith
-  val explode    : t -> word list = foldl (op ::) nil
+  val explode    : t -> word list = fn u => rev (foldl (op ::) nil u)
   val size       : t -> int = foldl (fn (_,n) => n+1) 0
   val fromString : string -> t = fn x => x
 end
