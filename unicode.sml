@@ -20,6 +20,15 @@ val u = Utf8.fromString c
 val sz = Utf8.size u
 val sz0 = size c
 
+val () = print ("First three exploded codepoints: " ^
+                (let val e = Utf8.explode u
+                 in
+                     String.concatWith ","
+                                       [Word.toString (hd e),
+                                        Word.toString (hd (tl e)),
+                                        Word.toString (hd (tl (tl e)))]
+                 end) ^ "\n")
+            
 fun pr s n = print(s ^ ": " ^ Int.toString n ^ "\n")
 
 val () = pr "Utf8 chars" sz
